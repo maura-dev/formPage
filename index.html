@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<title>Web Development Bootcamp</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+ <h3>Registeration Form for Web Development Bootcamp</h3>
+ 	<div>
+ 	<p><sup>*</sup>required</p>
+ 	  <form action="#">
+		<p>Full name<sup>*</sup></p>
+		<input type="text"  value="" id="list"placeholder="Surname Firstname Middlename" required>
+		
+		<p>Username(For Github)<sup>*</sup></p>
+		<input type=text required id="list">
+		
+		<p>Password<sup>*</sup></p>
+		<input type="password" value="" id="list" placeholder="" required>
+		
+		<p>Date of birth<sup>*</sup></p>
+		<input type="date" value="" id="list" placeholder="dd/mm/yy" required>
+		
+		<p>Email adress<sup>*</sup></p>
+		<input type="email" value="" id="list" placeholder="" required>
+		
+		<p>Phone number<sup>*</sup></p>
+		<input type="number" id="list" required>
+		
+		<p>Country<sup>*</sup></p>
+		<input type="text" id="list" required>
+	
+		<p>Gender<sup>*</sup></p>
+		<select name="gender">
+		<option value="female"> Female </option>
+		<option value="male"> Male </option>
+		<option value="others">Others</option>
+		</select>
+		
+	  
+		<p>Select area of specialization<sup>*</sup></p>
+			<input type="radio" name="web" value="front" id="front"/>
+			 <label for="front"><span></span> Front-end </label>
+ 	   		<input type="radio" name="web" value="back" id="back" />
+ 	   	   	 <label for="back"><span></span> Back-end </label>
+			<input type="radio" name="web" value="full" id="full" />
+		  	 <label for="full"><span></span> Full-Stack </label>
+		
+		<p>Portfolio (If any)</p>
+		<input type="file" id="port">
+			
+		<p>Hobbies (If not listed, select "OTHERS")</p>
+			<input type="checkbox" name="hobbies" value="chess" id="chess" />
+				<label for="chess"><span></span> Playing Chess </label>
+		
+			<input type="checkbox" name="hobbies" value="scrabble" id="scrabble" />
+				<label for="scrabble"><span></span> Playing Scrabble</label>
+	
+			<input type="checkbox" name="hobbies" value="writing" id="writing" />
+				<label for="writing"><span></span> Writing </label>
+		
+			<input type="checkbox" name="hobbies" value="outdoor" id="outdoor" />
+				<label for="outdoor"><span></span>Outdoor Games</label>
+
+			<input type="checkbox" name="others" value="others" id="others" />
+				<label for="others"><span></span> Others </label>
+	 
+		<section>
+		<p>Write a brief description about yourself(Optional)</p>
+		 <textarea type="text" placeholder="Brief Description of Yourself"></textarea>
+		</section>
+		<br>
+	<button>Register</button>
+   </form>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <footer><sub>©2020 Anyanwu Maureen</sub></footer>
+</body>
+</html>
